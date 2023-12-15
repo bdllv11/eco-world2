@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ЭКО МИР</title>
+		<link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="header__nav nav">
+
+                    <div class="nav__logo">
+                        <a href="#!" class="logo">ЭКО МИР</a>
+                    </div>
+
+					<ul class="nav-list">
+                       	<!-- <li class="nav-list__item">
+							<a href="#furniture" class="nav-list__link nav-list__link--dropdown">Furniture</a>
+                            <div class="nav-list__sub-nav">
+                                <ul class="sub-nav">
+                                    <li class="sub-nav__item"><a href="#!" class="sub-nav__link">Home</a></li>
+                                    <li class="sub-nav__item"><a href="#!" class="sub-nav__link">Services</a></li>
+                                    <li class="sub-nav__item"><a href="#!" class="sub-nav__link">Products</a></li>
+                                    <li class="sub-nav__item"><a href="#!" class="sub-nav__link">Contacts</a></li>
+                                </ul>
+                            </div>
+						</li> -->
+						
+						<li class="nav-list__item">
+							<a href="./about.html" class="nav-list__link">О нас</a>
+						</li>
+						<li class="nav-list__item">
+							<a href="./contacts.html" class="nav-list__link">Контакты</a>
+						</li>
+					</ul>
+
+                    <button id="open-mobile-nav-btn" class="nav__btn"><img src="./img/icons/mobile-nav.svg" alt="Open navigation"></button>
+				</nav>
+
+				<div class="header__content">
+					<h1 class="header__title">
+						Сохраняем природу, перерабатывая отходы!
+					</h1>
+					<p>
+						От мусора к возобновляемому будущему!
+					</p>
+				</div>
+
+			</div><!--/container-->
+		</header>
+
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__title">
+                    <h2 class="title-2">Почему выбирают нас</h2>
+                </div>
+                <div class="benefits__grid">
+
+
+                    <div class="benefit">
+                        <h3 class="benefit__title">Экспертность в переработке отходов</h3>
+                        <p class="benefit__text">Наше мастерство в переработке отходов базируется на глубоких знаниях и опыте. Мы являемся специалистами в области утилизации и восстановления ресурсов, сфокусированными на поиске инновационных методов для максимально эффективной переработки различных видов отходов. Наша команда состоит из экспертов, посвятивших себя цели создания более здоровой и устойчивой среды.</p>
+                        <a class="read-more" href="#!">Больше информации</a>
+                    </div>
+
+                    <div class="benefit">
+                        <h3 class="benefit__title">Технологические решения для устойчивого будущего</h3>
+                        <p class="benefit__text">Мы не просто перерабатываем отходы — мы используем передовые технологии, чтобы преобразовать их в ценные ресурсы. Наш подход основан на инновациях, которые помогают не только уменьшить количество отходов, но и превратить их в продукты и материалы, способствующие экологической устойчивости. Мы нацелены на создание кругового оборота ресурсов для наилучшего использования их потенциала.</p>
+                        <a class="read-more" href="#!">Больше информации</a>
+                    </div>
+
+                    <div class="benefit">
+                        <h3 class="benefit__title">Надежность и ответственность</h3>
+                        <p class="benefit__text">Наше обязательство состоит не только в эффективной переработке, но и в ответственном отношении к окружающей среде. Мы стремимся быть надежным партнером для наших клиентов, предлагая прозрачные и ответственные методы работы. Наша миссия — не просто обрабатывать отходы, но и вносить положительный вклад в будущее нашей планеты.</p>
+                        <a class="read-more" href="#!">Больше информации</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+
+                <div class="products__title">
+                    <h2 class="title-2">Материалы с которыми мы работаем</h2>
+                </div>
+
+                <div class="products__tabs none">
+                    <div class="tab-controls">
+                        <button data-tab="all" class="tab-controls__btn tab-controls__btn--active">All</button>
+                        <button data-tab="chair" class="tab-controls__btn">Chair</button>
+                        <button data-tab="bed" class="tab-controls__btn">Beds</button>
+                        <button data-tab="sofa" class="tab-controls__btn">Sofa</button>
+                        <button data-tab="lamp" class="tab-controls__btn">Lamp</button>
+                    </div>
+                </div>
+
+                <div class="products__slider">
+
+                    <!-- //slider -->
+                    <div class="slider">
+
+                        <!-- Slider main container -->
+                        <div class="swiper">
+
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/pnd.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Пластик</a>
+                                        <h3 class="card__title">Разновидности ПНД</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/pvx.jpg" srcset="./img/products/chair-02@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">ПВХ</a>
+                                        <h3 class="card__title">Разновидности ПВХ</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="bed" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/med.png" srcset="./img/products/chair-03@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Медь</a>
+                                        <h3 class="card__title">Вариации меди</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="sofa" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/pet.jpg" srcset="./img/products/chair-04@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">ПЕТ</a>
+                                        <h3 class="card__title">Разновидности ПЕТ</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="lamp" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/tselofan.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Целофан</a>
+                                        <h3 class="card__title">Разновидности Целофана</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="bed" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/aluminium.jpg" srcset="./img/products/chair-02@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Алюминиум</a>
+                                        <h3 class="card__title">Разновидности Алюминиума</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="sofa" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/svinets.jpg" srcset="./img/products/chair-03@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Свинец</a>
+                                        <h3 class="card__title">Вариации Свинца</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="lamp" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/latun.jpeg" srcset="./img/products/chair-04@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Латунь</a>
+                                        <h3 class="card__title">Разновидности латуни</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="bed" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/index_page_pics/makulatura.jpg" srcset="./img/products/chair-04@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Макулатура</a>
+                                        <h3 class="card__title">Разновидность макулатуры</h3>
+
+                                        <!-- <div class="card__rating">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star.svg" alt="">
+                                            <img src="./img/icons/star-off.svg" alt="">
+                                        </div> -->
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="->">Узнать больше</div>
+                                            <!-- <button class="card__btn">
+                                                Add to cart
+                                                <img src="./img/icons/plus.svg" alt="Add to cart">
+                                            </button> -->
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                
+                            </div><!--/swiper-wrapper-->
+
+                        </div><!--/swiper-->
+
+                        <!-- If we need navigation buttons -->
+                        <button id="sliderPrev" class="slider__btn slider__btn--prev">
+                            <img src="./img/icons/slider/slider-left.svg" alt="Previous">
+                        </button>
+
+                        <button id="sliderNext" class="slider__btn slider__btn--next">
+                            <img src="./img/icons/slider/slider-right.svg" alt="Next">
+                        </button>
+
+                    </div><!-- //slider -->
+
+                </div><!-- //products__slider -->
+
+                <div class="products__link">
+                    <a class="read-more read-more--large" href="#!">Посмореть все</a>
+                </div>
+            </div><!--/container-->
+        </section><!--/products-->
+
+        <footer class="footer">
+            <div class="container container--small">
+                <!-- footer__grid -->
+                <div class="footer__grid">
+
+                    <!-- Desc -->
+                    <div class="footer__desc">
+                        <div class="footer__logo">
+                            <a href="#!" class="logo">ЭКО МИР</a>
+                        </div>
+
+                        <p>У вас есть уникальная возможность делать мир чище сдавая указанные материалы быстро и удобно без дополнительной головной боли!</p>
+                    </div>
+                    <!-- // Desc -->
+
+                    <nav class="footer__nav footer__nav--services">
+                        <h3 class="footer__nav-title">Сервисы</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#!">Email Marketing</a></li>
+                            <li class="footer__list-item"><a href="#!">Кампании</a></li>
+                            <li class="footer__list-item"><a href="#!">Branding</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- <nav class="footer__nav">
+                        <h3 class="footer__nav-title">Furniture</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#!">Beds</a></li>
+                            <li class="footer__list-item"><a href="#!">Chair</a></li>
+                            <li class="footer__list-item"><a href="#!">All</a></li>
+                        </ul>
+                    </nav> -->
+
+                </div>
+                <!-- // footer__grid -->
+
+
+                <!-- footer__row -->
+                <div class="footer__row">
+                    <div class="footer__copyright">Copyright © 2023</div>
+
+                    <div class="footer__links">
+                        <a href="#!">Terms & Conditions</a>
+                        <a href="#!">Privacy Policy</a>
+                    </div>
+
+                </div>
+                <!-- // footer__row -->
+
+            </div>
+        </footer>
+
+        <!-- Mobile nav -->
+        <div id="mobile-nav" class="mobile-nav-wrapper">
+                <div class="mobile-nav-header">
+                    <a href="#cart" class="mobile-cart">
+                        <div href="#!" class="cart">
+                            <img
+                                class="cart__img"
+                                src="./img/icons/cart.svg"
+                                alt=""
+                            />
+                            <div class="cart__count">0</div>
+                        </div>
+                        Cart
+                    </a>
+
+                    <button id="close-mobile-nav-btn" class="mobile-nav-btn-close">
+                        <img src="./img/icons/close.svg" alt="Close navigation">
+                    </button>
+                </div>
+
+                <ul class="mobile-nav">
+                    <li class="mobile-nav__item">
+                        <a href="#furniture" class="mobile-nav__link mobile-nav__link--dropdown">Furniture</a>
+                        <ul class="mobile-sub-nav">
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Home</a></li>
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Services</a></li>
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Products</a></li>
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Contacts</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#!" class="mobile-nav__link">Shop</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#!" class="mobile-nav__link">About Us</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#!" class="mobile-nav__link">Contact</a>
+                    </li>
+                </ul>
+        </div>
+        <!-- // Mobile nav -->
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+	</body>
+</html>
